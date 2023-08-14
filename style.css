@@ -236,7 +236,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -318,7 +318,7 @@ nav ul li a:hover::after {
   margin-top: 30px;
 }
 
-.social-icons a{
+.social-icons a {
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
@@ -341,7 +341,8 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   border: 0;
   outline: none;
@@ -386,7 +387,6 @@ nav .fa-circle-xmark {
 
   .header-text h1 {
     font-size: 30px;
-
   }
 
   nav .fa-circle-xmark {
@@ -408,13 +408,14 @@ nav .fa-circle-xmark {
 
   nav ul li {
     display: block;
-    margin: 14px;
+    margin: 13px;
+    padding: 41px;
   }
-  
+
   .nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
     margin: 10px 60px;
     position: relative;
   }
@@ -430,7 +431,8 @@ nav .fa-circle-xmark {
     font-size: 40px;
   }
 
-  .about-col-1, .about-col-2 {
+  .about-col-1,
+  .about-col-2 {
     flex-basis: 100%;
   }
 
@@ -447,7 +449,8 @@ nav .fa-circle-xmark {
     margin-right: 20px;
   }
 
-  .contact-left, .contact-right {
+  .contact-left,
+  .contact-right {
     flex-basis: 100%;
   }
 
