@@ -378,7 +378,7 @@ nav .fa-circle-xmark {
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(images/uma-phone-background.png);
-    background-image: none;
+    /* background-image: none; */
   }
 
   .header-text {
