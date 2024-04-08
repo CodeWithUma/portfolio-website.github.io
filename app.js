@@ -1,7 +1,7 @@
 var tabLinks = document.getElementsByClassName("tab-links");
 var tabContents = document.getElementsByClassName("tab-contents");
 // Get the sideMenu element
-var sideMenu = document.getElementById("sideMenu");
+// var sideMenu = document.getElementById("sideMenu");
 
 function openTab(tabName) {
   for (tabLink of tabLinks) {
