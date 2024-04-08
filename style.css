@@ -24,7 +24,7 @@ body {
 }
 
 .fa-bars {
-  display: none;
+  display: none !important;
 }
 
 /* Container */
@@ -37,6 +37,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .logo {
@@ -379,6 +386,18 @@ nav .fa-circle-xmark {
   #header {
     background-image: url(images/uma-phone-background.png);
     /* background-image: none; */
+  }
+
+  /* Display the hamburger menu icon */
+  .fa-bars {
+    display: block;
+  }
+
+  .navbar .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
   }
 
   .header-text {
