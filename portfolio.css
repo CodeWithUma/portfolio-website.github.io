@@ -67,7 +67,7 @@
     height: 100%;
 }
 
-.btn {
+.common-btn {
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -79,6 +79,6 @@
     transition: background 0.5s;
 }
 
-.btn:hover {
+.common-btn:hover {
     background: #ff004f;
 }
