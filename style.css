@@ -3,9 +3,9 @@ nav .fa-circle-xmark {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
   #header {
-    background-image: url(images/uma-phone-background.png);
+    background-image: url(https://myawsbucket-demopics.s3.ap-south-1.amazonaws.com/portfolio-website/uma-phone-background.png);
   }
 
   /* Display the hamburger menu icon */
@@ -96,6 +96,16 @@ nav .fa-circle-xmark {
 
   .copyright {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  #header {
+    background-image: url(https://myawsbucket-demopics.s3.ap-south-1.amazonaws.com/portfolio-website/uma-phone-background.png);
+  }
+
+  .header-text {
+    font-size: 12px !important;
   }
 }
 
