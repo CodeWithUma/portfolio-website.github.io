@@ -27,25 +27,25 @@ body {
     display: none !important;
 }
 
-nav {
+/* nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
-.navbar .logo a {
+/* .navbar .logo a {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-}
+} */
 
 .logo {
     width: 140px;
 }
 
-nav ul li {
+/* nav ul li {
     display: inline-block;
     list-style: none;
 }
@@ -71,7 +71,7 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
-}
+} */
 
 /* Header Text */
 .header-text {
