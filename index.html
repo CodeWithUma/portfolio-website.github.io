@@ -18,6 +18,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://js.sentry-cdn.com/262286972c2a2860776fce4a84265b0f.min.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a510817ba3.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
 </head>
 
 <body>
@@ -255,33 +256,30 @@
             <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z" />
         </svg>
     </button>
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
-    
-    <script>
-        Sentry.onLoad(function () {
-            Sentry.init({
-                // Performance Monitoring
-                tracesSampleRate: 1.0, // Capture 100% of the transactions
-                // Session Replay
-                replaysSessionSampleRate: 0.1, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
-                replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
-            });
-        });
-    </script>
-    
-    <script src="app.js"></script>
-    <script src="roles.js"></script>
-    <script src="scrollToTop.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+
+<script>
+    Sentry.onLoad(function () {
+        Sentry.init({
+            // Performance Monitoring
+            tracesSampleRate: 1.0, // Capture 100% of the transactions
+            // Session Replay
+            replaysSessionSampleRate: 0.1, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
+            replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
+        });
+    });
+</script>
+
+<script src="app.js"></script>
+<script src="roles.js"></script>
+<script src="scrollToTop.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
 
 </html>
