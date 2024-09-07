@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* Aligns items vertically */
+        }
+
+        .text {
+            flex: 1;
+            /* Takes up the remaining space */
+        }
+
+        .image img {
+            width: 150px;
+            /* Adjust the image size */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <p>This is some text on the left side.</p>
+        </div>
+        <div class="image">
+            <img src="images/developer2-pic.png" alt="Image description">
+        </div>
+    </div>
+</body>
+
+</html>
