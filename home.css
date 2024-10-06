@@ -20,6 +20,7 @@ body {
 }
 
 .container {
+    /* Aligns items vertically */
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
@@ -61,8 +62,6 @@ body {
 }
 
 .container {
-    width: 246px;
-    /* padding: 10px 10%; */
     overflow: hidden;
 }
 
