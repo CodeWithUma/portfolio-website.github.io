@@ -16,66 +16,39 @@ body {
 
 /* Header */
 #header {
+    background-color: black;
+}
+
+.container {
+    /* Aligns items vertically */
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.image img {
+    margin-top: 50px;
     width: 100%;
-    height: 100vh;
-    background-image: url(https://myawsbucket-demopics.s3.ap-south-1.amazonaws.com/portfolio-website/uma-image.png);
-    background-size: cover;
-    background-position: center;
+    /* Adjust the image size */
+    height: auto;
 }
 
 .fa-bars {
     display: none !important;
 }
 
-/* nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
-
-/* .navbar .logo a {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-} */
-
 .logo {
     width: 140px;
 }
 
-/* nav ul li {
-    display: inline-block;
-    list-style: none;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 10px 20px;
-    position: relative;
-}
-
-nav ul li a::after {
-    content: "";
-    width: 0;
-    height: 3px;
-    background: #4070F4;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-} */
-
 /* Header Text */
 .header-text {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
@@ -88,24 +61,22 @@ nav ul li a:hover::after {
     color: #4070F4;
 }
 
- .container{
-    width: 246px;
-    padding: 10px 10%;
+.container {
     overflow: hidden;
 }
 
-.container .text{
+.container .text {
     position: relative;
     color: #4070F4;
     font-size: 30px;
     font-weight: 600;
 }
 
-.container .text.first-text{
+.container .text.first-text {
     color: #FFF;
 }
 
-.text.sec-text:before{
+.text.sec-text:before {
     content: "";
     position: absolute;
     top: 0;
@@ -117,11 +88,12 @@ nav ul li a:hover::after {
     animation: animate 4s steps(12) infinite;
 }
 
-@keyframes animate{
-    40%, 60%{
+@keyframes animate {
+    40%, 60% {
         left: calc(100% + 4px);
     }
-    100%{
+
+    100% {
         left: 0%;
     }
 }
