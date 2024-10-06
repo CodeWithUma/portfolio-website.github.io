@@ -44,6 +44,9 @@
                         <a class="nav-link active" aria-current="page" href="#header">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#about">About</a>
                     </li>
                     <li class="nav-item">
@@ -77,15 +80,44 @@
         </div>
     </div>
     
+    <!-- ----------------------- SKILLS ----------------------------- -->
+    <div id="skills" style="background-color: black;">
+        <div class="container1" style="margin: 0px 30px 30px 30px; padding-top: 30px;">
+            <h1 class="sub-title" style="padding-top: 30px;">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/html-5.png" alt="" style="width: 10rem; height: 10rem; padding: 5px;">
+                    <h2>HTML 5</h2>
+                </div>
+                <div>
+                    <img src="images/css-3.png" alt="" style="width: 10rem; height: 10rem; padding: 5px;">
+                    <h2>CSS 3</h2>
+                </div>
+                <div>
+                    <img src="images/js.png" alt="" style="width: 10rem; height: 10rem; padding: 5px;">
+                    <h2>JavaScript</h2>
+                </div>
+                <div>
+                    <img src="images/angular-icon.png" alt="" style="width: 10rem; height: 10rem; padding: 5px;">
+                    <h2>Angular</h2>
+                </div>
+                <div>
+                    <img src="images/github.png" alt="" style="width: 10rem; height: 10rem; padding: 5px;">
+                    <h2>GitHub</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- -----------------------ABOUT ME ----------------------------- -->
     <div id="about" style="background-color: black;">
-        <div class="container">
+        <div class="container" style="padding-top: 30px;">
             <div class="row">
                 <div class="about-col-1">
                     <img src="https://myawsbucket-demopics.s3.ap-south-1.amazonaws.com/portfolio-website/uma.png">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About</h1>
+                    <h1 class="sub-title">About Me</h1>
                     <p>Aspiring front-end software engineer with a passion for crafting dynamic and user-centric
                         interfaces using state-of-the-art technologies. Eagerly seeking exciting challenges within a
                         dynamic environment, aiming to drive innovation in projects and contribute to organizational
@@ -93,32 +125,15 @@
                     </p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="openTab('experience')">Experience</p>
                         <p class="tab-links" onclick="openTab('education')">Education</p>
                     </div>
 
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents active-tab" id="experience">
                         <ul style="padding-left: 0;">
-                            <li>Angular</li>
-                            <li>REST API</li>
-                            <li>Javascript</li>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Git Version Control</li>
-                            <li>Jira</li>
-                            <li>Bootstrap</li>
-                            <li>SASS</li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="experience">
-                        <ul style="padding-left: 0;">
-                            <li><span>Nov 2021 - Nov 2023</span><br>Software Engineer at CitiusTech Healthcare Pvt.
-                                Ltd.
-                            </li>
-                            <li><span>May 2021 - Oct 2021</span><br>Web Developer Intern at ProLeap
-                            </li>
+                            <li><span>Jul 2023 - Nov 2024</span><br>Software Developer at Panasa Technology Pvt. Ltd.</li>
+                            <li><span>Nov 2021 - May 2023</span><br>Software Engineer at CitiusTech Healthcare Pvt. Ltd.</li>
+                            <li><span>May 2021 - Oct 2021</span><br>Web Developer Intern at ProLeap</li>
                         </ul>
                     </div>
 
@@ -137,13 +152,12 @@
 
     <!-- ----------------------- SERVICES ----------------------------- -->
     <div id="services" style="background-color: black;">
-        <div class="container1" style="margin: 30px 30px 30px 30px;">
-            <h1 class="sub-title">Services</h1>
+        <div class="container1" style="margin: 0px 30px 0px 30px;">
+            <h1 class="sub-title" style="padding-top: 30px;">Services</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Development</h2>
-                    <!-- <a href="">Learn More</a> -->
                 </div>
                 <div>
                     <i class="fa-solid fa-crop"></i>
@@ -158,7 +172,6 @@
                 <div>
                     <i class="fa-solid fa-flask-vial"></i>
                     <h2>Testing and Debugging</h2>
-                    <!-- <a href="">Learn More</a> -->
                 </div>
                 <div>
                     <i class="fa-solid fa-chart-line"></i>
@@ -174,7 +187,7 @@
 
     <!-- ----------------------- PROJECTS ----------------------------- -->
     <div id="portfolio" style="background-color: black;">
-        <div class="container2" style="margin: 30px 30px 30px 30px;">
+        <div class="container2" style="margin: 0px 30px 0px 30px; padding-top: 30px;">
             <h1 class="sub-title">Projects</h1>
             <div class="work-list">
                 <div class="work">
@@ -208,19 +221,19 @@
 
     <!-- ----------------------- CONTACT FORM ----------------------------- -->
     <div id="contact" style="background-color: black;">
-        <div class="container">
+        <div class="container" style="padding-top: 30px; margin-top: 0;">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>umadas.developer@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>+91-8658766928</p>
+                    <h1 class="sub-title" style="padding-top: 30px;">Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>umaprasaddas1999@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-7978175924</p>
                     <div class="social-icons">
                         <a href="https://stackoverflow.com/users/16128713/uma-das"><i
                                 class="fa-brands fa-stack-overflow"></i></a>
                         <a href="https://github.com/CodeWithUma"><i class="fa-brands fa-github"></i></a>
                         <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
                         <!-- <a href="#"><i class="fa-brands fa-twitter-square"></i></a> -->
-                        <a href="https://www.linkedin.com/in/uma-das-79531b192/" target="_blank"><i
+                        <a href="https://www.linkedin.com/in/umapd1/" target="_blank"><i
                                 class="fa-brands fa-linkedin"></i></a>
                         <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
                     </div>
