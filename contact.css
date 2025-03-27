@@ -71,3 +71,19 @@ form .common-btn2 {
     font-weight: 300;
     margin-top: 20px;
 }
+
+.common-btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.common-btn:hover {
+    background: #ff004f;
+}
