@@ -2,13 +2,13 @@ const text = document.querySelector(".sec-text");
 
 const textLoad = () => {
     setTimeout(() => {
-        text.textContent = "Front End Developer";
+        text.textContent = "Full Stack Developer";
     }, 0);
     setTimeout(() => {
-        text.textContent = "Open Source Contributor";
+        text.textContent = "Software Engineer";
     }, 4000);
     setTimeout(() => {
-        text.textContent = "Freelancer";
+        text.textContent = "Problem Solver";
     }, 8000); //1s = 1000 milliseconds
 }
 
