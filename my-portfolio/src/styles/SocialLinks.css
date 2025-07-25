@@ -1,0 +1,62 @@
+/* Social links container */
+:root {
+  --primary-color: #3b82f6;
+  --primary-color-light: #60a5fa;
+  --text-secondary: #4b5563;
+  --text-secondary-dark: #d1d5db;
+}
+
+.dark {
+  --primary-color: #60a5fa;
+  --primary-color-light: #93c5fd;
+  --text-secondary: #9ca3af;
+  --text-secondary-dark: #e5e7eb;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Social link items */
+.social-link {
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+/* Social icons */
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Dark mode styles */
+.dark .social-link {
+  color: var(--text-secondary-dark);
+}
+
+.dark .social-link:hover {
+  color: var(--primary-color-light);
+}
+
+/* Animation for hover effect */
+@keyframes socialBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.social-link:hover .social-icon {
+  animation: socialBounce 0.5s ease;
+}
