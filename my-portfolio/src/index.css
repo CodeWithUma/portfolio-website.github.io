@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply transition-colors duration-300;
+}
+
+* {
+  box-sizing: border-box;
+}

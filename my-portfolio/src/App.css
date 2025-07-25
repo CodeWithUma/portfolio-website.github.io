@@ -1,0 +1,110 @@
+/* Base styles */
+.app-container {
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.app-container.dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.app-main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Section spacing */
+section {
+  padding: 5rem 0;
+}
+
+/* Dark mode color scheme */
+.dark {
+  --primary-color: #60a5fa;
+  --primary-dark: #3b82f6;
+  --text-color: #f9fafb;
+  --text-secondary: #d1d5db;
+  --bg-color: #111827;
+  --bg-secondary: #1f2937;
+  --border-color: #374151;
+}
+
+:root {
+  --primary-color: #3b82f6;
+  --primary-dark: #2563eb;
+  --text-color: #111827;
+  --text-secondary: #4b5563;
+  --bg-color: #f9fafb;
+  --bg-secondary: #ffffff;
+  --border-color: #e5e7eb;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.slide-left {
+  animation: slideLeft 0.6s ease-out forwards;
+}
+
+.slide-right {
+  animation: slideRight 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
